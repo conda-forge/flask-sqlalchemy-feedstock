@@ -11,6 +11,18 @@ Summary: Adds SQLAlchemy support to your Flask application
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-sqlalchemy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-sqlalchemy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-sqlalchemy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-sqlalchemy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-sqlalchemy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-sqlalchemy-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-sqlalchemy/badges/version.svg)](https://anaconda.org/conda-forge/flask-sqlalchemy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-sqlalchemy/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-sqlalchemy)
+
 Installing flask-sqlalchemy
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `flask-sqlalchemy` available on yo
 ```
 conda search flask-sqlalchemy --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-sqlalchemy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-sqlalchemy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-sqlalchemy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-sqlalchemy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-sqlalchemy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-sqlalchemy-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-sqlalchemy/badges/version.svg)](https://anaconda.org/conda-forge/flask-sqlalchemy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-sqlalchemy/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-sqlalchemy)
 
 
 Updating flask-sqlalchemy-feedstock
