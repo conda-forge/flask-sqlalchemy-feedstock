@@ -1,8 +1,8 @@
 {% set name = "Flask-SQLAlchemy" %}
-{% set version = "2.1" %}
+{% set version = "2.2" %}
 {% set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "c5244de44cc85d2267115624d83faef3f9e8f088756788694f305a5d5ad137c5" %}
+{%set hash_val = "f0d8241efba723d7b878f73550f5d3c0fbb042416123b52b36640b7491fa208b" %}
 {%set build_num = "1" %}
 
 
