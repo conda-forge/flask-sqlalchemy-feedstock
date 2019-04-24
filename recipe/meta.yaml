@@ -1,9 +1,5 @@
 {% set name = "Flask-SQLAlchemy" %}
-{% set version = "2.3.2" %}
-{% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "5971b9852b5888655f11db634e87725a9031e170f37c0ce7851cf83497f56e53" %}
-{% set build = 0 %}
+{% set version = "2.4.0" %}
 
 
 package:
@@ -11,20 +7,18 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 0c9609b0d72871c540a7945ea559c8fdf5455192d2db67219509aed680a3d45a
 
 build:
+  number: 0
   noarch: python
-  number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
     - python
-    - setuptools
-
+    - pip
   run:
     - python
     - flask >=0.10
@@ -36,9 +30,9 @@ test:
 
 about:
   home: http://github.com/mitsuhiko/flask-sqlalchemy
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: 'Adds SQLAlchemy support to your Flask application'
   dev_url: https://github.com/mitsuhiko/flask-sqlalchemy
   doc_url: http://flask-sqlalchemy.pocoo.org/{{ version }}/
