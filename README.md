@@ -5,7 +5,7 @@ Home: http://github.com/mitsuhiko/flask-sqlalchemy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Adds SQLAlchemy support to your Flask application
 
