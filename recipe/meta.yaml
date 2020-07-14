@@ -29,13 +29,13 @@ test:
     - flask_sqlalchemy
 
 about:
-  home: http://github.com/mitsuhiko/flask-sqlalchemy
+  home: https://github.com/pallets/flask-sqlalchemy
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
   summary: Adds SQLAlchemy support to your Flask application
-  dev_url: https://github.com/mitsuhiko/flask-sqlalchemy
-  doc_url: http://flask-sqlalchemy.pocoo.org/{{ version }}/
+  dev_url: https://github.com/pallets/flask-sqlalchemy
+  doc_url: https://flask-sqlalchemy.palletsprojects.com
 
 extra:
   recipe-maintainers:
