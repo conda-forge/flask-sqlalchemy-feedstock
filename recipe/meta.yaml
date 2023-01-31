@@ -1,5 +1,5 @@
 {% set name = "Flask-SQLAlchemy" %}
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 16199f5b3ddfb69e0df2f52ae4c76aedbfec823462349dabb21a1b2e0a2b65e9
+  sha256: 2764335f3c9d7ebdc9ed6044afaf98aae9fa50d7a074cef55dde307ec95903ec
 
 build:
   number: 0
