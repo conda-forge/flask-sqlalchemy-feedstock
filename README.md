@@ -1,11 +1,11 @@
-About flask-sqlalchemy
-======================
+About flask_sqlalchemy-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-sqlalchemy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pallets/flask-sqlalchemy
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-sqlalchemy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Adds SQLAlchemy support to your Flask application
 
@@ -31,53 +31,53 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-flask--sqlalchemy-green.svg)](https://anaconda.org/conda-forge/flask-sqlalchemy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask-sqlalchemy.svg)](https://anaconda.org/conda-forge/flask-sqlalchemy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask-sqlalchemy.svg)](https://anaconda.org/conda-forge/flask-sqlalchemy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask-sqlalchemy.svg)](https://anaconda.org/conda-forge/flask-sqlalchemy) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flask_sqlalchemy-green.svg)](https://anaconda.org/conda-forge/flask_sqlalchemy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask_sqlalchemy.svg)](https://anaconda.org/conda-forge/flask_sqlalchemy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask_sqlalchemy.svg)](https://anaconda.org/conda-forge/flask_sqlalchemy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask_sqlalchemy.svg)](https://anaconda.org/conda-forge/flask_sqlalchemy) |
 
-Installing flask-sqlalchemy
+Installing flask_sqlalchemy
 ===========================
 
-Installing `flask-sqlalchemy` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `flask_sqlalchemy` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `flask-sqlalchemy` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `flask_sqlalchemy` can be installed with `conda`:
 
 ```
-conda install flask-sqlalchemy
-```
-
-or with `mamba`:
-
-```
-mamba install flask-sqlalchemy
-```
-
-It is possible to list all of the versions of `flask-sqlalchemy` available on your platform with `conda`:
-
-```
-conda search flask-sqlalchemy --channel conda-forge
+conda install flask_sqlalchemy
 ```
 
 or with `mamba`:
 
 ```
-mamba search flask-sqlalchemy --channel conda-forge
+mamba install flask_sqlalchemy
+```
+
+It is possible to list all of the versions of `flask_sqlalchemy` available on your platform with `conda`:
+
+```
+conda search flask_sqlalchemy --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search flask_sqlalchemy --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search flask-sqlalchemy --channel conda-forge
+mamba repoquery search flask_sqlalchemy --channel conda-forge
 
-# List packages depending on `flask-sqlalchemy`:
-mamba repoquery whoneeds flask-sqlalchemy --channel conda-forge
+# List packages depending on `flask_sqlalchemy`:
+mamba repoquery whoneeds flask_sqlalchemy --channel conda-forge
 
-# List dependencies of `flask-sqlalchemy`:
-mamba repoquery depends flask-sqlalchemy --channel conda-forge
+# List dependencies of `flask_sqlalchemy`:
+mamba repoquery depends flask_sqlalchemy --channel conda-forge
 ```
 
 
@@ -99,7 +99,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -122,17 +122,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating flask-sqlalchemy-feedstock
+Updating flask_sqlalchemy-feedstock
 ===================================
 
-If you would like to improve the flask-sqlalchemy recipe or build a new
+If you would like to improve the flask_sqlalchemy recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/flask-sqlalchemy-feedstock are
+Note that all branches in the conda-forge/flask_sqlalchemy-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
