@@ -11,7 +11,7 @@ Summary: Adds SQLAlchemy support to your Flask application
 
 Development: https://github.com/pallets/flask-sqlalchemy
 
-Documentation: https://flask-sqlalchemy.palletsprojects.com
+Documentation: https://flask-sqlalchemy.palletsprojects.com/
 
 Current build status
 ====================
