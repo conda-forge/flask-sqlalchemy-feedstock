@@ -7,21 +7,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/f/flask_sqlalchemy/flask_sqlalchemy-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/f/flask_sqlalchemy/flask_sqlalchemy-{{ version }}.tar.gz
   sha256: e4b68bb881802dda1a7d878b2fc84c06d1ee57fb40b874d3dc97dabfa36b8312
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - flit-core <4
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - flask >=2.2.5
     - sqlalchemy >=2.0.16
 
@@ -30,6 +30,7 @@ test:
     - flask_sqlalchemy
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
